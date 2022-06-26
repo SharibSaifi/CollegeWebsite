@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+</head>
+<body>
+    <!-- ----Header------ -->
+    <section class="Sub-header">
+        <nav>
+            <a href="index2.html"><img src="Images/logo.png"></a>
+            <div class="navbar" id="Navbar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index2.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <br>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR CERTIFICATES & ONLINE PROGRAMS FOR 2022</h1>
+    </section>
+    <!-- ----Blog Page Content------ -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/certificate.png">
+                <h2>OUR CERTIFICATE</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nulla accusamus consectetur perferendis debitis repellendus commodi dignissimos quibusdam illum sunt dolorum nihil itaque quasi fuga facere eveniet ratione voluptate nobis, quia enim tempore inventore voluptatibus voluptatem! Ipsa recusandae omnis ullam!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus veritatis repellendus voluptatem laborum porro itaque minus voluptate deleniti, culpa voluptatum iusto harum vel. Enim perspiciatis, veritatis cumque fugit molestiae dolorum quasi provident, repellendus perferendis alias commodi fugiat ipsum. Illum nemo recusandae voluptatum excepturi repellat eum ea minus, eligendi vel ullam quasi nobis enim dolor ut!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus veritatis repellendus voluptatem laborum porro itaque minus voluptate deleniti, culpa voluptatum iusto harum vel. Enim perspiciatis, veritatis cumque fugit molestiae dolorum quasi provident, repellendus perferendis alias commodi fugiat ipsum. Illum nemo recusandae voluptatum excepturi repellat eum ea minus, eligendi vel ullam quasi nobis enim dolor ut!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ullam reiciendis distinctio repellendus harum repellat fuga voluptatibus similique esse aperiam perspiciatis, dolor, asperiores laborum, sint velit praesentium magnam odio? Dolores minima eligendi voluptate voluptatum vel veritatis soluta provident suscipit vitae.</p>
+                <div class="comment-box">
+                    <h3>Leave Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <textarea rows="10" placeholder="Write your Comment"></textarea>
+                        <button type="submit" class="button">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>1</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>Digital Marketing</span>
+                    <span>4</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>5</span>
+                </div>
+                <div>
+                    <span>Artificial Intelligence</span>
+                    <span>6</span>
+                </div>
+                <div>
+                    <span>Viral Marketing</span>
+                    <span>7</span>
+                </div>
+                <div>
+                    <span>Finanace Management</span>
+                    <span>8</span>
+                </div>
+                <div>
+                    <span>Hotel Management</span>
+                    <span>9</span>
+                </div>
+                <div>
+                    <span>Accounting</span>
+                    <span>10</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----Courses------ -->
+    
+    <!-- ----Campus------ -->
+
+    <!-- ----Facilities------ -->
+    
+    <!-- ----Testimonials------ -->
+    
+    <!-- ----Call to Action------ -->
+
+    <!-- ----Footer------ -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem velit doloribus qui officiis, ipsam placeat <br> rem? Optio sit ea maiores vitae nemo debitis, ratione dolorem possimus, accusamus assumenda enim nobis!</p>
+        <br>
+        <div class="icons">
+            <i class="fa fa-google"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+        </div>
+        <br>
+        <p>Made With <i class="fa fa-heart"></i> by Sharib Saifi</p>
+    </section>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var Navbar = document.getElementById("Navbar");
+        function showMenu(){
+            Navbar.style.right = "0";
+        }
+        function hideMenu(){
+            Navbar.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

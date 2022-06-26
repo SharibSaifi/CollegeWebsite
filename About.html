@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+</head>
+<body>
+    <!-- ----Header------ -->
+    <section class="Sub-header">
+        <nav>
+            <a href="index2.html"><img src="Images/logo.png"></a>
+            <div class="navbar" id="Navbar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index2.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <br>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+    <!-- ------About Us Content------- -->
+    <section class="about">
+        <div class="row">
+            <div class="about-column">
+                <h1>We are One of Biggest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eos praesentium, voluptatum a nulla beatae maxime fugit illum vel corporis ullam iure sapiente autem debitis quisquam quae ad doloremque atque facilis pariatur nemo inventore provident animi. Exercitationem facere tempora vero ut doloribus, deleniti autem dolorem, provident nemo, voluptatibus sed! Voluptatibus?</p>
+                <a href="" class="button">EXPLORE NOW</a>
+            </div>
+            <div class="about-column">
+                <img src="Images/About.jpg">
+            </div>
+        </div>
+    </section>
+    <!-- ----Courses------ -->
+    
+    <!-- ----Campus------ -->
+
+    <!-- ----Facilities------ -->
+    
+    <!-- ----Testimonials------ -->
+    
+    <!-- ----Call to Action------ -->
+
+    <!-- ----Footer------ -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem velit doloribus qui officiis, ipsam placeat <br> rem? Optio sit ea maiores vitae nemo debitis, ratione dolorem possimus, accusamus assumenda enim nobis!</p>
+        <br>
+        <div class="icons">
+            <i class="fa fa-google"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+        </div>
+        <br>
+        <p>Made With <i class="fa fa-heart"></i> by Sharib Saifi</p>
+    </section>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var Navbar = document.getElementById("Navbar");
+        function showMenu(){
+            Navbar.style.right = "0";
+        }
+        function hideMenu(){
+            Navbar.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

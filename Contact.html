@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website</title>
+</head>
+<body>
+    <!-- ----Header------ -->
+    <section class="Sub-header">
+        <nav>
+            <a href="index2.html"><img src="Images/logo.png"></a>
+            <div class="navbar" id="Navbar">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index2.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSES</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <br>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+    <!-- ----Contact Us ------ -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d521.0605928853304!2d77.3104338225202!3d28.531787214713116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce698604bf31f%3A0xee70e4069ab4d529!2sMadanpur%20Khadar%20Extension%2C%20Block%20A%2C%20Madanpur%20Khadar%2C%20New%20Delhi%2C%20Delhi%20110044!5e0!3m2!1sen!2sin!4v1654241430375!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-column">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h4>Chauraha Madanpur Khadar Extension</h4>
+                        <p>New Delhi, Delhi</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h4>+91 1234567891</h4>
+                        <p>Monday to Saturday , 10 A.M. to 8 P.M.</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h4>45University@website.com</h4>
+                        <p>Email Us Your Query </p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-column">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ----Courses------ -->
+    
+    <!-- ----Campus------ -->
+
+    <!-- ----Facilities------ -->
+    
+    <!-- ----Testimonials------ -->
+    
+    <!-- ----Call to Action------ -->
+
+    <!-- ----Footer------ -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem velit doloribus qui officiis, ipsam placeat <br> rem? Optio sit ea maiores vitae nemo debitis, ratione dolorem possimus, accusamus assumenda enim nobis!</p>
+        <br>
+        <div class="icons">
+            <i class="fa fa-google"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+        </div>
+        <br>
+        <p>Made With <i class="fa fa-heart"></i> by Sharib Saifi</p>
+    </section>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+        var Navbar = document.getElementById("Navbar");
+        function showMenu(){
+            Navbar.style.right = "0";
+        }
+        function hideMenu(){
+            Navbar.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
